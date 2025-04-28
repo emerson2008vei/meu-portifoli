@@ -4,29 +4,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
     <link rel="stylesheet" href="style.css">
-    <title>Meu portifolio</title>
+    <title>Meu portfólio</title>
 </head>
 
 <body>
-    <header class="container text-center"> 
-        <img src="img/6a78cadb47b8ff2d5b3e5836790e1c1f.jpg"  class="rounded-circle" width="150" height="150" alt="avatar da emilly" sizes="" srcset="">
-        <p class="lead">Olá, me chamo Emilly</p>
-        <h1>Estudo no Colégio 14 de Dezembro </h1>
-        <p>Curso o 2° ano do ensino médio integral, na área de exatas. Futuramente quero ser Perita Criminal. </p>
-        <p>Minhas habilidades</p>
+    <header class="container text-center">
+        <img src="img/6a78cadb47b8ff2d5b3e5836790e1c1f.jpg" alt="Avatar da Emilly" class="rounded-circle" width="150"
+            height="150" srcset="">
+        <p class="lead">Olá, me Emilly!</p>
+        <h1>Estudo no Colégio 14 de Dezembro</h1>
+        <p>Curso o 2° ano do ensino médio integral, na área de exatas. Futuramente quero ser Perita Criminal.</p>
+        <p class="lead">Minhas habilidades</p>
         <div>
-            <p class="badge text-bg-secondary">Dançar </p>
+            <p class="badge text-bg-secondary">Dança</p>
             <p class="badge text-bg-secondary">Maquiagem</p>
             <p class="badge text-bg-secondary">Trabalho em equipe</p>
         </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu"
             crossorigin="anonymous"></script>
     </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/1-mulher-dancando-bale-segurando-a-mao-de-um-dancarino-de-break-dois-tipos-de-danca.webp"
+                        class="card-img-top" alt="Imagem do projeto cinema em ação">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto Cinema em Ação</h5>
+                        <p class="card-text" style="text-align: justify;">Projeto desenvolvido com a prof.Eliana, na
+                            área de linguagens. Tinha como objetivo desenvolver habilidades corporais e o trabalho
+                            colaborativo.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o
+                            projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/20220924_PedroTeixeira_VoleiRenataVsSaoJose-166-scaled.jpg" class="card-img-top"
+                        alt="Imagem do projeto Clube de Ciências">
+                    <div class="card-body">
+                        <h5 class="card-title">Vôlei 14</h5>
+                        <p class="card-text" style="text-align: justify;">Projeto desenvolvido com a prof. Patricia, na área de esportes. Objetivo desenvolver 
+                            habilidades.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o
+                            projeto</button>
+                    </div>
+                </div>
+                <!-- Projeto 3 -->
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Robotica_-o-que-e-e-como-esta-presente-no-dia-a-dia-das-empresas.webp" class="card-img-top"
+                        alt="Imagem do Vôlei 14">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto Robótica</h5>
+                        <p class="card-text" style="text-align: justify;">Projeto desenvolvido com a prof. Ana Flávia.
+                            Tem como objetivo a educação integral do aluno;
+                            desenvolver seu raciocínio lógico, a capacidade de resolução de problemas e o trabalho
+                            colaborativo.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o
+                            projeto</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeto Cinema em Ação</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></buSOS
+                            Matemáticatton>
+                </div>
+                <div class="modal-body">
+                    <p class="text-justify">Projeto desenvolvido com a prof.Eliana, na área de linguagens. Tinha como
+                        objetivo desenvolver habilidades corporais e o trabalho colaborativo.</p>
+                    <img src="img/1-mulher-dancando-bale-segurando-a-mao-de-um-dancarino-de-break-dois-tipos-de-danca.webp"
+                        alt="Imagem do projeto cinema em ação" class="img-fluid w-100" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Vôlei 14</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-justify"> desenvolvido com a prof. Patricia, na área de esportes. Objetivo desenvolver 
+                        habilidades.</p>
+                    <img src="img/ChatGPT " class="img-fluid w-100"
+                        alt="Imagem do projeto Vôlei 14" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeto Robótica</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-justify">Projeto desenvolvido com a prof. Ana Flávia.
+                        Tem como objetivo a educação integral do aluno;
+                        desenvolver seu raciocínio lógico, a capacidade de resolução de problemas e o trabalho
+                        colaborativo.
+                    </p>
+                    <img src="img/Robotica_-o-que-e-e-como-esta-presente-no-dia-a-dia-das-empresas.webp" class="img-fluid w-100"
+                        alt="Imagem do projeto Clube de Ciências" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato!</h2>
+        <i class="bi bi-envelope-at"></i>
+        <p>E-mail: emilly.vitoria@gmail.com</p>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Emilly.</p>
+    </footer>
 </body>
 
 </html>
